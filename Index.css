@@ -1,0 +1,104 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+#nav a{
+    margin-right: 10px;
+}
+#nav a.topimage{
+    width: 25px;
+    height: 25px;
+    background: red;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#middle{
+    margin-top: 50px;
+}
+#logo{
+    text-align: center;
+}
+.search__input{
+    color:gray;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(199, 199, 199);
+    height: 25px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 550px;
+}
+.search__input input{
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+.material-icons{
+    color: gray;
+}
+.search__input:hover{
+    box-shadow: 0 0 10px 2px #e3e3e4;
+}
+#buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: rgb(238, 237, 237);
+    border: 2px solid transparent;
+}
+#links{
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: center;
+}
+.link{
+    margin-left: 10px;
+}
+.button:hover{
+    box-shadow: 0 0 3px 1.5px #e3e3e4;
+}
+#middle{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content-left{
+    display: flex;
+    height: 50px;
+    background: rgb(242, 242, 242);
+    border-top: 1px solid rgb(116, 114, 114);
+}
+.footer-content{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(242, 242, 242);
+    border-top: 1px solid rgb(116, 114, 114);
+}
